@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;   
+}
+body.super{
+    padding: 10px;
+    padding-bottom: 360px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 1px solid burlywood; 
+    height: 50vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpc2MC5_VtFyHLBRL_EMaYNQ0rd4XxoJRzQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: rgb(226, 198, 43);
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#name{
+    border: 4px solid wheat;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+#password{
+    border: 4px solid wheat;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+form{
+    font-size: 25px;
+    padding-right: 20px;
+    color: thistle; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+    padding-right: 130px;
+    color: palegreen;
+}
+#submit{
+    padding: 10px;
+    border-radius: 15px;
+    width: 30vh;
+    margin-bottom: 10px;
+    background-color: coral;
+}
+#submit:hover{
+    background-color: red;
+}
+.new{
+    padding-left: 100px;
+    font-size: 15px;
+}
+span{
+    color: rosybrown;
+}
+.aa{
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-image: url('https://images.unsplash.com/photo-1480497209098-7b9e9555bcee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzODJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.name{
+    border: 4px solid rgb(106, 175, 214);
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+#email{
+    border: 4px solid rgb(106, 175, 214);
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+.password{
+    border: 4px solid rgb(106, 175, 214);
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+.warner{
+    font-size: 15px;
+    padding-left: 110px;
+    color: cyan;
+}
+.nice{
+    color: #DA8F0C;
+    font-weight: 500;
+}
+.mam{
+    color: indigo;
+}
